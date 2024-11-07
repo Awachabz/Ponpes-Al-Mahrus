@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ponpes Al-Mahrus</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="navbar">
+            <img src="logo.png" alt="Logo Al-Mahrus" class="logo">
+            <ul>
+                <li><a href="#">Beranda</a></li>
+                <!-- Dropdown Rutinitas -->
+                <li class="dropdown">
+                    <a href="#" class="dropbtn" onclick="toggleDropdown()">Rutinitas</a>
+                    <div class="dropdown-content" id="dropdownContent">
+                        <a href="https://quran.nu.or.id/yasin" target="_blank">Surah Yasiin</a>
+                        <a href="#">Surah Al-Waqiah</a>
+                        <a href="#">Surah Al-Mulk</a>
+                        <a href="#">Sholawat Ishtighosah</a>
+                        <a href="#">Sholawat Nariah</a>
+                        <a href="#">Sholawat Nurzati</a>
+                        <a href="#">Sholawat Anil Qodr</a>
+                    </div>
+                </li>
+                <li><a href="#">Santri</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <!-- Carousel -->
+    <div class="carousel">
+        <div class="slide active">
+            <img src="iklan1.jpeg" alt="Iklan 1">
+            
+        </div>
+        <div class="slide">
+            <img src="iklan2.jpeg" alt="Iklan 2">
+            
+        </div>
+        <div class="slide">
+            <img src="iklan3.jpeg" alt="Iklan 3">
+           
+        </div>
+        <div class="slide">
+            <img src="iklan4.jpeg" alt="Iklan 4">
+           
+        </div>
+        <div class="slide">
+            <img src="iklan5.jpeg" alt="Iklan 5">
+          
+        </div>
+        <button class="prev" onclick="changeSlide(-1)">&#10094;</button>
+        <button class="next" onclick="changeSlide(1)">&#10095;</button>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>Ponpes Al-Mahrus</p>
+        <a href="https://wa.me/085891596575" class="whatsapp-button">DAFTAR</a>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
