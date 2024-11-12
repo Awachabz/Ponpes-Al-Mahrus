@@ -165,37 +165,50 @@ body, html {
     flex-direction: column;
 }
 
-/* Main content area - flex to center content vertically */
+/* Responsive settings for main content */
 main {
     flex: 1;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center; /* Centers vertically */
-    text-align: center;
+    justify-content: center;
+    padding: 0 20px; /* Padding to prevent overflow on smaller screens */
 }
 
-/* Heading (h4) styling */ /*SholawatNurzati */
+/* Heading (h4) styling */
 main h4 {
-    margin-top: 2,5px; 
+    margin-top: 20px; 
     font-size: 2em;
 }
 
-/* Center and enlarge Arabic text */
+/* Arabic text for Sholawat Nurizati */
 main h5 {
-    font-size: 3em; /* Adjust as needed */
+    font-size: 2em; /* Adjust for better responsiveness */
     text-align: center;
-    margin: 60px 0; /* Space around the Arabic text */
+    margin: 20px 0;
     line-height: 1.6;
+    word-wrap: break-word; /* Prevents text from overflowing */
+    overflow-wrap: break-word;
 }
 
-/* Translation (h3) closer to footer */
+/* Translation text (h6) */
 main h6 {
-    margin-top: auto; /* Pushes h3 closer to footer */
-    margin-bottom: 40px; /* Adjust as needed */
-    font-size: 2em;
+    font-size: 1.2em; /* Smaller font size for responsiveness */
+    text-align: center;
     line-height: 1.6;
+    margin-bottom: 40px;
 }
+
+/* Responsive adjustments for smaller screens */
+@media (max-width: 768px) {
+    main h5 {
+        font-size: 1.5em; /* Reduces font size on small screens */
+    }
+    main h6 {
+        font-size: 1em; /* Reduces font size on small screens */
+    }
+}
+
 
 /* Footer always at bottom */
 footer {
