@@ -138,22 +138,22 @@ main {
 
 /* Heading (h1) styling */
 main h1 {
-    margin-top: 40px; /* Adjust to control spacing */
+    margin-top: 80px; /* Adjust to control spacing */
 }
 
 /* Center and enlarge Arabic text */
 main h2 {
-    font-size: 3em; /* Adjust as needed */
+    font-size: 2; /* Adjust as needed */
     text-align: center;
-    margin: 60px 0; /* Space around the Arabic text */
+    margin: 20px 0; /* Space around the Arabic text */
     line-height: 1.6;
 }
 
 /* Translation (h3) closer to footer */
 main h3 {
     margin-top: auto; /* Pushes h3 closer to footer */
-    margin-bottom: 40px; /* Adjust as needed */
-    font-size: 1,8em;
+    margin-bottom: 200px; /* Adjust as needed */
+    font-size: 1em;
     line-height: 1.6;
 }
 
@@ -163,6 +163,16 @@ body, html {
     margin: 0;
     display: flex;
     flex-direction: column;
+}
+
+/* Responsive adjustments for smaller screens */
+@media (max-width: 768px) {
+    main h2 {
+        font-size: 2em; /* Reduces font size on small screens */
+    }
+    main h3 {
+        font-size: 1em; /* Reduces font size on small screens */
+    }
 }
 
 /* Responsive settings for main content */
