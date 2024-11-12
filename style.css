@@ -183,7 +183,7 @@ main h4 {
 
 /* Center and enlarge Arabic text */
 main h5 {
-    font-size: 4em; /* Adjust as needed */
+    font-size: 3em; /* Adjust as needed */
     text-align: center;
     margin: 60px 0; /* Space around the Arabic text */
     line-height: 1.6;
