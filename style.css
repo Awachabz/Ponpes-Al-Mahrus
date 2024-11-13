@@ -226,7 +226,7 @@ main h7 {
 
 /* Arabic text for Sholawat Nurizati */
 main h8 {
-    font-size: 3em; /* Adjust for better responsiveness */
+    font-size: 2em; /* Adjust for better responsiveness */
     text-align: center;
     margin: 20px 0;
     line-height: 1.6;
@@ -236,7 +236,7 @@ main h8 {
 
 /* Translation text (h6) */
 main h9 {
-    font-size: 1.5em; /* Smaller font size for responsiveness */
+    font-size: 1em; /* Smaller font size for responsiveness */
     text-align: center;
     line-height: 1.6;
     margin-bottom: 40px;
