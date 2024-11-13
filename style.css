@@ -220,15 +220,15 @@ main {
 
 /* Heading (h7) styling */
 main h7 {
-    margin-top: 20px;
+    margin-top: 10px; 
     font-size: 2em;
 }
 
 /* Arabic text for Sholawat Nurizati */
 main h8 {
-    font-size: 2em; /* Adjust for better responsiveness */
+    font-size: 1.7em; /* Adjust for better responsiveness */
     text-align: center;
-    margin: 20px 0;
+    margin: 40px 0;
     line-height: 1.6;
     word-wrap: break-word; /* Prevents text from overflowing */
     overflow-wrap: break-word;
