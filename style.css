@@ -208,7 +208,39 @@ main h6 {
     line-height: 1.6;
     margin-bottom: 40px;
 }
+/* Responsive settings for main content */
+main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 20px; /* Padding to prevent overflow on smaller screens */
+}
 
+/* Heading (h7) styling */
+main h7 {
+    margin-top: 20px; 
+    font-size: 2em;
+}
+
+/* Arabic text for Sholawat Nurizati */
+main h8 {
+    font-size: 2em; /* Adjust for better responsiveness */
+    text-align: center;
+    margin: 20px 0;
+    line-height: 1.6;
+    word-wrap: break-word; /* Prevents text from overflowing */
+    overflow-wrap: break-word;
+}
+
+/* Translation text (h6) */
+main h6 {
+    font-size: 1em; /* Smaller font size for responsiveness */
+    text-align: center;
+    line-height: 1.6;
+    margin-bottom: 40px;
+}
 /* Responsive adjustments for smaller screens */
 @media (max-width: 768px) {
     main h5 {
