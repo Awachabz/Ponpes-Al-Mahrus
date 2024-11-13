@@ -222,7 +222,6 @@ main {
 main h7 {
     margin-top: 20px;
     font-size: 2em;
-    font-weight: bold;
 }
 
 /* Arabic text for Sholawat Nurizati */
@@ -233,7 +232,6 @@ main h8 {
     line-height: 1.6;
     word-wrap: break-word; /* Prevents text from overflowing */
     overflow-wrap: break-word;
-    font-weight: bold;
 }
 
 /* Translation text (h6) */
