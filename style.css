@@ -215,12 +215,12 @@ main {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 0 20px; /* Padding to prevent overflow on smaller screens */
+    padding: 0 80px; /* Padding to prevent overflow on smaller screens */
 }
 
 /* Heading (h7) styling */
 main h7 {
-    margin-top: 20px; 
+    margin-top: 20px;
     font-size: 2em;
 }
 
