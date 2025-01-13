@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ponpes Al-Mahrus</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="navbar">
+            <img src="logo.png" alt="Logo Al-Mahrus" class="logo">
+            <ul>
+                <li><a href="#">Beranda</a></li>
+                <!-- Dropdown Rutinitas -->
+                <li class="dropdown">
+                    <a href="#" class="dropbtn" onclick="toggleDropdown()">Rotinan</a>
+                    <div class="dropdown-content" id="dropdownContent">
+                        <a href="https://quran.nu.or.id/yasin" target="_blank">Surah Yasiin</a>
+                        <a href="https://quran.nu.or.id/al-waqiah">Surah Al-Waqiah</a>
+                        <a href="https://quran.nu.or.id/al-mulk">Surah Al-Mulk</a>
+                        <a href="AsmaBadar.pdf">Asma Badar (Kitab-Ahlul Qodr Fi Ahli Badr) </a>
+                        <a href="SholawatNariah.html">Sholawat Tamilah</a>
+                        <a href="SholawatNurizati.html">Sholawat Nurzati</a>
+                        <a href="AnilQodr.html">Sholawat Anil Qodr</a>
+                        <a href="">Sholawat</a>
+                    </div>
+                </li>
+                <li><a href="#">Santri</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <!-- Carousel -->
+    <div class="carousel">
+        <div class="slide active">
+            <img src="iklan1.jpeg" alt="Iklan 1">
+            
+        </div>
+        <div class="slide">
+            <img src="iklan2.jpeg" alt="Iklan 2">
+            
+        </div>
+        <div class="slide">
+            <img src="iklan3.jpeg" alt="Iklan 3">
+           
+        </div>
+        <div class="slide">
+            <img src="iklan4.jpeg" alt="Iklan 4">
+           
+        </div>
+        <div class="slide">
+            <img src="iklan5.jpeg" alt="Iklan 5">
+          
+        </div>
+        <button class="prev" onclick="changeSlide(-1)">&#10094;</button>
+        <button class="next" onclick="changeSlide(1)">&#10095;</button>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>Ponpes Al-Mahrus</p>
+        <a href="https://wa.me/085++" class="whatsapp-button">DAFTAR</a>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
