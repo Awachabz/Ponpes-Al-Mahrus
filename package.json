@@ -1,0 +1,12 @@
+{
+  "name": "aboe-web",
+  "version": "1.0.0",
+  "main": "script.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Al Mahrus",
+  "license": "ISC",
+  "description": "",
+  "type": "module"
+}
