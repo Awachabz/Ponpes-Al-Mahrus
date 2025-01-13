@@ -241,6 +241,26 @@ main h9 {
     line-height: 1.6;
     margin-bottom: 40px;
 }
+
+main h11 {
+    font-size: 2em;
+    text-align: center;
+    line-height: 1.8; /* Agar spasi antar baris lebih nyaman */
+    margin: 20px 0;
+    direction: rtl; /* Mengatur arah teks ke kanan untuk teks Arab */
+    font-family: 'Amiri', serif; /* Gunakan font Arab yang lebih elegan */
+    word-wrap: break-word; /* Menghindari teks meluap */
+    overflow-wrap: break-word;
+}
+
+main p {
+    font-size: 1.2em;
+    text-align: center;
+    line-height: 1.6;
+    margin: 10px 0 20px 0; /* Beri spasi antar paragraf */
+    font-family: 'Arial', sans-serif; /* Font biasa untuk terjemahan */
+}
+
 /* Responsive adjustments for smaller screens */
 @media (max-width: 768px) {
     main h5 {
